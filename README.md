@@ -1,2 +1,2 @@
 # gulp-defer
-Modifies a page the way its scripts will be loaded on page load event
+Moves render blocking javascript and css into a deferred loading section
