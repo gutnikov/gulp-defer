@@ -1,0 +1,26 @@
+{
+  "name": "gulp-defer",
+  "version": "0.0.1",
+  "description": "Moves render blocking javascript and css into a deferred loading section",
+  "homepage": "https://github.com/alxgutnikov/gulp-defer",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/alxgutnikov/gulp-defer.git"
+  },
+  "main": "index.js",
+  "keywords": [
+    "gulpplugin"
+  ],
+  "author": {
+    "name": "Alexander Gutnikov"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "~3.3.4"
+  },
+  "dependencies": {
+    "event-stream": "~3.1.0",
+    "glob": "^5.0.12",
+    "gulp-util": "~2.2.10"
+  }
+}
