@@ -37,7 +37,7 @@ module.exports = function () {
 };
 
 function processFile(content) {
-    var deferBlockRx = /<!--defer-->([\s\S]*?)<!--endDefer-->/g,
+    var deferBlockRx = /<!--defer-->([\s\S]*?)<!--enddefer-->/g,
         scriptRx = /script.*?src=["'](.*?)["']/g,
         styleRx = /link.*?href=["'](.*?)["']/g,
         bodyRx = /<\/body>/;
