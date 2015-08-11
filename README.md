@@ -1,4 +1,4 @@
-# gulp-defer [![NPM version][npm-image]][npm-url] ![Travis build][travis-image]
+# gulp-defer 
 >Moves render blocking javascript and css into a deferred loading section
 
 
