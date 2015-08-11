@@ -65,7 +65,7 @@ function processFile(content) {
     }
 
     // nothing found?
-    if (!scripts.length || !styles.length) {
+    if (!scripts.length && !styles.length) {
         return content;
     }
 
