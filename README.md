@@ -52,7 +52,6 @@ An example of a page using defer blocks ca be seen below:
   <head>
     <title></title>
     <meta charset="utf-8">
-    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
     <!--defer-->
     <link rel="stylesheet" href="css/font.css"/>
     <!--enddefer-->
@@ -79,8 +78,7 @@ The result after processing with `gulp-defer` will be:
   <head>
   <title></title>
   <meta charset="utf-8">
-  <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
-
+  
 
  </head>
  
@@ -88,7 +86,7 @@ The result after processing with `gulp-defer` will be:
     <div id="content" class="content">
       Loading...
     </div>
-    <script type="text/javascript">!function (a, b, c) { "use strict"; var d = function (a) { if ("[object Array]" !== Object.prototype.toString.call(a))return !1; for (var c = 0; c < a.length; c++) {     var d = b.createElement("script"), e = a[c]; d.src = e.src, d.async = e.async, b.body.appendChild(d) } return !0 }; var e = function (a) { if ("[object Array]" !== Object.prototype.toString.call(a))r    eturn !1; for (var c = 0; c < a.length; c++) { var d = document.createElement("link"), e = a[c]; d.rel = "stylesheet", d.href = e.href, document.getElementsByTagName("head")[0].appendChild(d); } retur    n !0 }; a.addEventListener ? a.addEventListener("load", function () { d(c.scripts); e(c.styles); }, !1) : a.attachEvent ? a.attachEvent("onload", function () { d(c.scripts); e(c.styles); }) : a.onload     = function () { d(c.scripts); e(c.styles); } }(window, document, {"scripts":[{"src":"js/libs/vendor/jquery.min.js","async":false},{"src":"js/libs/vendor/isMobile.min.js","async":false}],"styles":[{"href":"css/font.css"}]});</script>
+    <script type="text/javascript">!function (a, b, c) { "use strict"; var d = function (a) { if ("[object Array]" !== Object.prototype.toString.call(a))return !1; for (var c = 0; c < a.length; c++) {     var d = b.createElement("script"), e = a[c]; d.src = e.src, d.async = e.async, b.body.appendChild(d) } return !0 }; var e = function (a) { if ("[object Array]" !== Object.prototype.toString.call(a))r    eturn !1; for (var c = 0; c < a.length; c++) { var d = document.createElement("link"), e = a[c]; d.rel = "stylesheet", d.href = e.href, document.getElementsByTagName("head")[0].appendChild(d); } return !0 }; a.addEventListener ? a.addEventListener("load", function () { d(c.scripts); e(c.styles); }, !1) : a.attachEvent ? a.attachEvent("onload", function () { d(c.scripts); e(c.styles); }) : a.onload     = function () { d(c.scripts); e(c.styles); } }(window, document, {"scripts":[{"src":"js/libs/vendor/jquery.min.js","async":false},{"src":"js/libs/vendor/isMobile.min.js","async":false}],"styles":[{"href":"css/font.css"}]});</script>
   </body>
   </html>
 ```
