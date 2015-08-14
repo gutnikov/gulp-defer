@@ -1,6 +1,9 @@
 # gulp-defer 
->Moves render blocking javascript and css into a deferred loading section
+>Moves render blocking javascript and css into a deferred loading section. 
 
+>It is likely to be helpful if you get "Eliminate render-blocking JavaScript and CSS in above-the-fold content" warning from PageSpeed Insights results
+
+>See https://varvy.com/pagespeed/defer-loading-javascript.html for more information on how to address this warning
 
 ## Installation
 ```shell
